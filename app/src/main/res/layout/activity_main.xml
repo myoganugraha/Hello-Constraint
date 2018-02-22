@@ -13,14 +13,13 @@
     tools:context="itk.myoganugraha.ppb_minggu2.MainActivity">
 
     <Button
-        android:id="@+id/button_toast"
+        android:id="@+id/button_reset"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/button_label_toast"
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"
-        android:layout_weight="1"
-        android:onClick="showToast"/>
+        android:layout_weight="1"/>
 
     <TextView
         android:id="@+id/show_count"
@@ -41,8 +40,7 @@
         android:text="@string/button_label_count"
         android:background="@color/colorPrimary"
         android:textColor="@android:color/white"
-        android:layout_weight="1"
-        android:onClick="countUp"/>
+        android:layout_weight="1"/>
 
 
 
