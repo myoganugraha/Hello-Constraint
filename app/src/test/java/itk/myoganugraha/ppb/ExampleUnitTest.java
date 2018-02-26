@@ -1,4 +1,4 @@
-package itk.myoganugraha.ppb_minggu2;
+package itk.myoganugraha.ppb;
 
 import org.junit.Test;
 

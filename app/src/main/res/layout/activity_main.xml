@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:layout_gravity="center_horizontal"
-    tools:context="itk.myoganugraha.ppb_minggu2.MainActivity">
+    tools:context="itk.myoganugraha.ppb.MainActivity">
 
     <Button
         android:id="@+id/button_reset"
@@ -31,7 +31,8 @@
         android:textColor="@color/colorPrimary"
         android:text="@string/count_initial_value"
         android:background="#FFFF00"
-        android:layout_weight="4"/>
+        android:layout_weight="4"
+        android:freezesText="true"/>
 
     <Button
         android:id="@+id/button_count"
